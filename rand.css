@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 130px;
+    width: auto;
+    background-color: lightgoldenrodyellow;   
+    text-align: center;
+    border-radius: 15%;
+    border:brown 2px solid ;
+    
+}
+.container> p{
+    color: rgb(250, 133, 8);
+    font-weight: bolder;
+    padding: 5px;
+    font-family: cursive;
+    margin-top: 35px;
+    text-decoration: cadetblue 3px underline;
+}
+#bt{
+    
+    align-items: center;
+    /* margin: 55px 25px 25px 685px; */
+    width: max-content;
+    height: 55px;
+    font-weight: bolder;
+    background-color: skyblue;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+#bt:hover {background-color: #8c43bd}
+
+#bt:active {
+  background-color: #ac35d6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+#bt1{
+    
+    align-items: center;
+    /* margin: 55px 25px 25px 685px; */
+    width: max-content;
+    height: 55px;
+    font-weight: bolder;
+    background-color: rgb(30, 87, 110);
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #346050;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+#bt1:hover {background-color: #31abd3}
+
+#bt1:active {
+  background-color: #ac35d6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+#bt2{
+    
+    align-items: center;
+    /* margin: 55px 25px 25px 685px; */
+    width: max-content;
+    height: 55px;
+    font-weight: bolder;
+    background-color: rgb(30, 87, 110);
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #346050;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+#bt2:hover {background-color: #31abd3}
+
+#bt2:active {
+  background-color: #ac35d6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+.bts{
+    justify-content: center;
+    padding: 5px;
+    margin: 24px;
+}
+@media screen  and (min-width: 1201px){
+.bts{
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: max-content;
+}
+}
